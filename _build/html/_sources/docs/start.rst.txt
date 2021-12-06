@@ -1,3 +1,31 @@
-=================
-Getting Started
-=================
+Getting started
+===============
+
+Web access
+----------
+
+MLExchange can be accessed at
+`mlsandbox <https://mlsandbox.als.lbl.gov>`__.
+
+
+.. figure:: figures/mlsandbox.png
+   :scale: 30 %
+   :alt: mlsandbox
+   :align: center
+
+   MLExchange "mlsandbox" login webpage
+
+
+The MLExchange architecture is undergoing active development. If you are
+interested in trying out our current services, please contact
+ahexemer@lbl.gov or hkrishnan@lbl.gov to request login credentials.
+
+Build from source
+-----------------
+
+Source codes (to be released) are hosted at
+`GitHub <https://github.com/mlexchange>`__.
+
+To build from source, `Docker
+Engine <https://docs.docker.com/engine/install/>`__ is required to run
+“containerized” services.
