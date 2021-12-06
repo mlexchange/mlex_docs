@@ -26,7 +26,7 @@ MLExchange registry, the applications in the platform can deploy this
 new ML model among different datasets through the **computing
 service**. The computing service will deploy the requested model with
 its corresponding dataset in a suitable location that can provide the
-resources that the algorithm requires for it’s correct operation.
+resources that the algorithm requires for its correct operation.
 Simultaneously, the user can access the status of these processes, its
 logs, and their final results from the web applications.
 

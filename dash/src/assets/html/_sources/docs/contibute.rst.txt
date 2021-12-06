@@ -44,7 +44,7 @@ source files. For validation purposes, MLExchange uses
 
 Insert your project name in line 4 in Makefile (optional).
 You can add example commands in Makefile. 
-Once all changes have been completed, open a terminal window and type
+Once all changes have been completed, open a terminal console and type
 “build_docker”. 
 You have successfully dockerized your model!
 
@@ -57,13 +57,13 @@ Model registration
 ~~~~~~~~~~~~~~~~~~
 
 You can register a new model at `MLExchagne Model
-Registry <https://mlsandbox.als.lbl.gov/model-registry>`__
+Registry <https://mlsandbox.als.lbl.gov/model-registry>`__.
 
 | **Register your model**
 
-| Creating a json file with the description of your model (fill out the
+| Create a JSON file with the description of your model (fill out the
   online form to generate your model document), and upload your model
-  document to the model registry after validate the document.
+  document to the model registry after validating the document.
   
 .. figure:: figures/upload_model.png
    :scale: 62 %
@@ -77,10 +77,10 @@ Registry <https://mlsandbox.als.lbl.gov/model-registry>`__
 | The parameter class you previously defined for your source files
   corresponds to the GUI’s components that MLExchange automatically
   generates within its applications. You can define these parameters in
-  the json file, or you can use the model registry form to add each GUI
+  the JSON file, or you can use the model registry form to add each GUI
   component.
 
-Currently, the model registry supports 8 different types of components: 
+Currently, the model registry supports the following 8 types of components: 
 
 - 3 types of input box: int, float, and string
 - Dropdown
