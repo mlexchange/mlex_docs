@@ -45,9 +45,8 @@ model.
 When choosing an unsupervised algorithm, you do not need to
 provide annotations. 
 
-The segmentation app allows two different training
-options for this type of algorithms: you can mark some few images to be
-used for training. 
+The segmentation app allows 2 different training options for unsupervised algorithms: 
+you can mark some few images to be used for training. 
 If no marks are provided, the algorithm utilizes the
 entire stack of images for training. It is important to clarify that
 these marks do not correspond to annotations/labels/ground truth. 

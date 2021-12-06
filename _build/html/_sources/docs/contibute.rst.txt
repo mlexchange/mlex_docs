@@ -27,7 +27,7 @@ versions in ``docker/requirements.txt``.
 Use ``src/model_name.py`` to place your algorithm. You can rename this
 file according to your function/command, e.g. train.py. 
 While modifying this template, please make sure to identify 3 main sections of your
-code: input/output directory(ies) path and parameters.
+code: input directory(ies), output directory(ies), and parameters.
 The template indicates how to declare this information and the order in which they should be declared. 
 If you have more than one input directory, you should list these directories consecutively. 
 The same applies for the output directories.
@@ -56,7 +56,7 @@ zzhao2@lbl.gov.
 Model registration
 ~~~~~~~~~~~~~~~~~~
 
-You can register a new model at `MLExchagne Model
+You can register a new model at `MLExchange Model
 Registry <https://mlsandbox.als.lbl.gov/model-registry>`__.
 
 | **Register your model**
