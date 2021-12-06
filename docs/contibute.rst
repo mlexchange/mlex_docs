@@ -96,6 +96,6 @@ They look like the follows:
    :alt: gui components
    :align: center 
    
-   MLExchange currently supports 8 types of automatic-generated GUI components.
+   8 types of automatic-generated GUI components (currently) supported by MLExchange 
 
 
