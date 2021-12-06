@@ -1,5 +1,5 @@
-Contribute
-==========
+Contributing
+============
 
 Contributing your workflow to MLExchange
 ----------------------------------------
