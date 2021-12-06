@@ -9,7 +9,7 @@ services:
       dockerfile: "docker/Dockerfile"
     command: "python src/dash_docs.py"
     environment:
-      DATA_DIR: "${COMPOSE_PROJECT_NAME}_services"
+      DATA_DIR: "${COMPOSE_PROJECT_NAME}_docs"
     volumes:
       - ./dash/src:/app/dash/src
     ports:
