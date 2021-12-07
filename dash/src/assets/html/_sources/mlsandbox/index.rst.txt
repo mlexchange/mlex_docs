@@ -14,9 +14,9 @@ Please click on each tab in **the top panel** to navigate through the current se
 
 - **Home:** mlsandbox homepage
 - **Search:** a simple search service showing available models 
-- **Apps:** the image segmentation demo
+- **Apps:** image segmentation
 - **Models:** MLExchange model registry homepage 
-- **Notebooks:** launches notebook scripts to do pre- or post-processing. 
+- **Notebooks:** launches notebook script(s) to do post-processing. 
 - **Profile:** your profile and settings
 - **Get Help:** in-depth MLExchange documentation 
 
