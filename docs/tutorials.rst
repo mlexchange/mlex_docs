@@ -5,7 +5,7 @@ Applications
 ------------
 
 Image segmentation
-~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^
 
 This application performs image segmentation in TIF images (supports either
 a single image or volume).
@@ -17,8 +17,8 @@ a single image or volume).
 
    MLExchange Image segmentation webpage
 
-| **Currently available ML models**
-
+Currently available ML models
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Random Forest (supervised learning)
   [`adapted from Dash example code <https://github.com/plotly/dash-sample-apps/blob/d96997bd269deb4ff98b810d32694cc48a9cb93e/
   apps/dash-image-segmentation/trainable_segmentation.py#L64>`__]
@@ -26,11 +26,12 @@ a single image or volume).
   [`documentation <http://pymsdtorch.readthedocs.io>`__]
 - K-Means (unsupervised learning) [ALS Howard Yanxon & Nicholas Schwartz]
 
-| **Supervised vs. unsupervised learning**
+Supervised vs. unsupervised learning
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| A supervised learning algorithm utilizes labeled datasets to train
-  their models, while an unsupervised learning approach does not need
-  this information to perform training.
+A supervised learning algorithm utilizes labeled datasets to train
+their models, while an unsupervised learning approach does not need
+this information to perform training.
 
 Run a segmentation model in the MLExchange platform
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
