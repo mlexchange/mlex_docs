@@ -1,4 +1,4 @@
-version: "3.9"
+version: "3"
 
 services:
   dash-docs:
@@ -8,9 +8,13 @@ services:
       context: "dash/"
       dockerfile: "docker/Dockerfile"
     command: "python src/dash_docs.py"
-    environment:
-      DATA_DIR: "${COMPOSE_PROJECT_NAME}_docs"
     volumes:
       - ./dash/src:/app/dash/src
     ports:
-      - "8054:8054"
+      - "8058:8058"
+    networks:
+      - computing_api_default
+      
+networks:
+  computing_api_default:
+    external: true
