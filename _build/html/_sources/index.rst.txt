@@ -7,12 +7,15 @@ Welcome to MLExchange documentation!
 ====================================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 7
 
    docs/intro
    docs/start
    docs/tutorials
-   docs/contibute
+   docs/applications
+   docs/cite
+   docs/publications
+   docs/users
 
 
 

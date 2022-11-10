@@ -20,7 +20,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'MLExchange'
-copyright = '2021, MLExchange'
+copyright = '2022, MLExchange'
 author = 'Zhuowen Zhao, Tanny Chavez'
 
 # The full version, including alpha/beta/rc tags
